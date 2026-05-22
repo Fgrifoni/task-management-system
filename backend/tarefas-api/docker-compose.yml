@@ -1,0 +1,42 @@
+
+  version: '3.9'
+
+  services:
+
+    postgres:
+
+      image: postgres:17
+
+      container_name: postgres-tarefas
+
+      environment:
+        POSTGRES_DB: tarefasdb
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: 244466666
+
+      ports:
+        - "5433:5432"
+
+      volumes:
+        - postgres_data:/var/lib/postgresql/data
+
+    api:
+
+      build: .
+
+      container_name: tarefas-api
+
+      depends_on:
+        - postgres
+
+      ports:
+        - "8080:8080"
+
+      environment:
+        SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/tarefasdb
+        SPRING_DATASOURCE_USERNAME: postgres
+        SPRING_DATASOURCE_PASSWORD: 244466666
+
+  volumes:
+    postgres_data:
+

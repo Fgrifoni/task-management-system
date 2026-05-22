@@ -1,0 +1,22 @@
+# Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Java
+target/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
