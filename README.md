@@ -10,27 +10,27 @@ Projeto fullstack desenvolvido com **Spring Boot** e **Flutter Web** para gerenc
 
 ### Login
 
-![Login](assets/screenshots/login.png)
+![Login](assets/screenshots/login.PNG)
 
 ### Home
 
-![Home](assets/screenshots/home.png)
+![Home](assets/screenshots/home.PNG)
 
 ### Criar Tarefa
 
-![Criar Tarefa](assets/screenshots/criar.png)
+![Criar Tarefa](assets/screenshots/criar.PNG)
 
 ### Editar Tarefa
 
-![Editar Tarefa](assets/screenshots/editar.png)
+![Editar Tarefa](assets/screenshots/editar.PNG)
 
 ### Compartilhamento
 
-![Compartilhamento](assets/screenshots/compartilhar.png)
+![Compartilhamento](assets/screenshots/compartilhar.PNG)
 
 ### Lixeira
 
-![Lixeira](assets/screenshots/lixeira.png)
+![Lixeira](assets/screenshots/lixeira.PNG)
 
 ## Funcionalidades implementadas
 
